@@ -24,7 +24,7 @@ export default function AppSidebar({data}: AppSidebarProps,) {
           
         collapsible="icon"
         className={clsx(`
-          border-r transition-all duration-200
+          border-r transition-all duration-200 border-sidebar-border
           data-[state=closed]:flex-col data-[state=closed]:justify-center
           ${hovered ? "data-[state=open]" : "data-[state=close]"}`)}
         onMouseEnter={() => setHovered(true)}

@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import '../styles/main.css'
+import '@/styles/main.css'
 import { ThemeProvider as NextThemesProvider, useTheme } from 'next-themes'
 import ThemeDataProvider from '../context/theme-data-provider.tsx'
 

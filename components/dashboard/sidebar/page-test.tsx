@@ -20,7 +20,7 @@ export default function Sidebar({data, children}: AppSidebarProps, ) {
       "--sidebar-width": "18rem",
       "--sidebar-width-icon": "4.5rem",
     }}
-      className="data-[collapsed=true]:w-6rem transition-all duration-200 "
+      className="data-[collapsed=true]:w-6rem transition-all duration-200 overflow-visible relative z-0"
       >
       <AppSidebar data={data}></AppSidebar>
       <SidebarInset>

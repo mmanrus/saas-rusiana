@@ -4,7 +4,7 @@ import { Search } from 'lucide-react'
 export default function SearchInput() {
   return (
     <form className="flex items-center max-w-sm mx-auto border-border">
-      <label for="simple-search" class="sr-only">
+      <label htmlFor="simple-search" className="sr-only">
         Search in Customers
       </label>
       <div className="relative w-full">

@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <header
       className="flex h-16 shrink-0 items-center gap-2 justify-between border-b
-        px-4 border-sidebar-border"
+        px-4 border-sidebar-border shadow-sm"
     >
       {/* Use  <SidebarTrigger className="-ml-1  text-foreground" /> To display the sidebar trigger button */}
       <div className="flex flex-row items-center just gap-3">
@@ -84,7 +84,7 @@ export default function Header() {
               src="/favicon.ico"
               width={96}
               height={96}
-              className="w-8 h-8 rounded-full"
+              className="w-8 h-8 rounded-full border border-accent-foreground"
             />
           </Button>
           <Button size='icon' variant='ghost'>

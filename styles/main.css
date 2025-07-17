@@ -41,6 +41,7 @@
      --radius-md: calc(var(--radius) - 2px);
      --radius-lg: var(--radius);
      --radius-xl: calc(var(--radius) + 4px);
+     --color-theme-blue: var(--theme-blue)
    }
 
    :root {
@@ -76,9 +77,18 @@
     --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
     --sidebar-border: oklch(0.92 0.004 286.32);
     --sidebar-ring: oklch(0.606 0.25 292.717);
+
+    /* My addition*/
+    --theme-blue: theme('colors.blue.50');
   }
 
   .dark {
+    --theme-blue: theme('colors.blue.950'); /* dark */
+
+
+
+    /* Default */
+    --theme-blue: 
     --background: oklch(0.141 0.005 285.823);
     --foreground: oklch(0.985 0 0);
     --card: oklch(0.21 0.006 285.885);

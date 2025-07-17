@@ -1,6 +1,6 @@
 import React from "react";
-import { SidebarTrigger } from "../ui/sidebar";
-import { Separator } from "../ui/separator";
+import { SidebarTrigger } from "../../ui/sidebar";
+import { Separator } from "../../ui/separator";
 import { 
   Bell, 
   ChevronLeft,
@@ -9,7 +9,7 @@ import {
   Settings,
   User,
   LayoutGrid } from "lucide-react";
-import SearchInput from "./input/SearchInput";
+import SearchInput from "../input/SearchInput";
 import { Button } from "@/components/ui/button";
 import Image from 'next/image'
 import {
@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <header
       className="flex h-16 shrink-0 items-center gap-2 justify-between border-b
-        px-4 border-sidebar-border shadow-sm"
+        px-4 border-sidebar-border shadow-sm bg-theme-blue"
     >
       {/* Use  <SidebarTrigger className="-ml-1  text-foreground" /> To display the sidebar trigger button */}
       <div className="flex flex-row items-center just gap-3">

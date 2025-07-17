@@ -1,8 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import DashboardBanner from "@/components/dashboard/banner/DashboardBanner";
+import SalesOverview from '@/components/dashboard/SalesOverview'
 export default function page() {
-  return (<>
-    <div>Home Dashboard</div>
+  return (
+    <>
+      <DashboardBanner />
+      <SalesOverview />
+      <div>Home Dashboard</div>
     </>
-  )
+  );
 }

@@ -8,7 +8,7 @@ import {
 } from "../../ui/sidebar"
 
 import { SidebarData } from './constants';
-import Header from '../Header';
+import Header from '../header/Header';
 type AppSidebarProps = {
   data: SidebarData;
   children: React.ReactNode
